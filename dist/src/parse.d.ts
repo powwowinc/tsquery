@@ -1,5 +1,5 @@
 /// <reference types="esquery" />
-import type { Selector } from './index';
+import type { Selector } from './index.js';
 /**
  * @public
  * Parse a `string` into an ESQuery `Selector`.

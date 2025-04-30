@@ -1,5 +1,5 @@
 import { transform, visitNode, visitEachChild } from 'typescript';
-import { ast, match, parse, print } from './index';
+import { ast, match, parse, print } from './index.js';
 /**
  * @public
  * Transform AST `Nodes` within a given `Node` matching a `Selector`. Can be used to do `Node`-based replacement or removal of parts of the input AST.

@@ -1,5 +1,5 @@
-import { simpleFunction } from './fixtures';
-import { ast, parse, match, tsquery } from '../src/index';
+import { simpleFunction } from './fixtures/index.js';
+import { ast, parse, match, tsquery } from '../src/index.js';
 describe('tsquery:', () => {
     describe('tsquery.query:', () => {
         it('should work on the result of another query', () => {

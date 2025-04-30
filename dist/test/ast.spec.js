@@ -1,6 +1,6 @@
 import { ScriptKind } from 'typescript';
-import { simpleJsxCode } from './fixtures';
-import { tsquery, ast } from '../src/index';
+import { simpleJsxCode } from './fixtures/index.js';
+import { tsquery, ast } from '../src/index.js';
 describe('tsquery:', () => {
     describe('tsquery - jsx:', () => {
         it('should get a correct AST from JSX code', () => {

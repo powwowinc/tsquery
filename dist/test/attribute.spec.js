@@ -1,7 +1,7 @@
-import { conditional, simpleFunction, simpleProgram } from './fixtures';
+import { conditional, simpleFunction, simpleProgram } from './fixtures/index.js';
 import { factory } from 'typescript';
-import { tsquery, ast, parse, query } from '../src/index';
-import { getProperties } from '../src/traverse';
+import { tsquery, ast, parse, query } from '../src/index.js';
+import { getProperties } from '../src/traverse.js';
 describe('tsquery:', () => {
     describe('tsquery - attribute:', () => {
         it('should find any nodes with a property with a value that matches a specific value', () => {

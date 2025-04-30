@@ -5,9 +5,9 @@ import type {
   IfStatement,
   VariableStatement
 } from 'typescript';
-import { conditional, simpleProgram } from './fixtures';
+import { conditional, simpleProgram } from './fixtures/index.js';
 
-import { tsquery } from '../src/index';
+import { tsquery } from '../src/index.js';
 
 describe('tsquery:', () => {
   describe('tsquery - field:', () => {

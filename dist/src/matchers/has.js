@@ -1,4 +1,4 @@
-import { findMatches, traverse } from '../traverse';
+import { findMatches, traverse } from '../traverse.js';
 export function has(node, selector) {
     const collector = [];
     selector.selectors.forEach((childSelector) => {

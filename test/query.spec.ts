@@ -1,9 +1,9 @@
-import type { Selector } from '../src/index';
+import type { Selector } from '../src/index.js';
 import type { Block, FunctionDeclaration } from 'typescript';
 
-import { simpleFunction } from './fixtures';
+import { simpleFunction } from './fixtures/index.js';
 
-import { ast, parse, match, tsquery } from '../src/index';
+import { ast, parse, match, tsquery } from '../src/index.js';
 
 describe('tsquery:', () => {
   describe('tsquery.query:', () => {

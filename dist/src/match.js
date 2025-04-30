@@ -1,5 +1,5 @@
-import { parse } from './index';
-import { findMatches, traverse } from './traverse';
+import { parse } from './index.js';
+import { findMatches, traverse } from './traverse.js';
 /**
  * @public
  * Find AST `Nodes` within a given AST `Node` matching a `Selector`.

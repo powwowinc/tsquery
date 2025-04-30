@@ -1,5 +1,5 @@
-import type { Node, SourceFile } from './index';
-import { ScriptKind } from './index';
+import type { Node, SourceFile } from './index.js';
+import { ScriptKind } from './index.js';
 /**
  * @public
  * Parse a string of code into an Abstract Syntax Tree which can then be queried with TSQuery Selectors.

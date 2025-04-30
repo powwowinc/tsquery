@@ -1,6 +1,6 @@
 import { SyntaxKind, factory } from 'typescript';
-import { simpleFunction } from './fixtures/simple-function';
-import { ast, print, query } from '../src/index';
+import { simpleFunction } from './fixtures/simple-function.js';
+import { ast, print, query } from '../src/index.js';
 describe('tsquery:', () => {
     describe('tsquery.print:', () => {
         it('should handle a SourceFile:', () => {

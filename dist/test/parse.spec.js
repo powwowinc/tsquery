@@ -1,4 +1,4 @@
-import { tsquery, parse } from '../src/index';
+import { tsquery, parse } from '../src/index.js';
 describe('tsquery:', () => {
     describe('tsquery.parse - null query:', () => {
         it('should parse an empty query', () => {

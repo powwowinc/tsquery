@@ -1,6 +1,6 @@
 import type { Class, Selector } from 'esquery';
 import type { Node } from 'typescript';
-import type { Properties } from '../types';
+import type { Properties } from '../types.js';
 type ClassMatcher = (node: Node, properties: Properties, selector: Selector, ancestors: Array<Node>) => boolean;
 export type ClassMatchers = {
     [Key in Class['name']]: ClassMatcher;

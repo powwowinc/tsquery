@@ -1,10 +1,10 @@
-import type { Node, Selector } from './index';
-import type { Matcher } from './matchers';
-import type { Properties } from './types';
+import type { Node, Selector } from './index.js';
+import type { Matcher } from './matchers/index.js';
+import type { Properties } from './types.js';
 
 import { SyntaxKind } from 'typescript';
-import { syntaxKindName } from './syntax-kind';
-import { MATCHERS } from './matchers';
+import { syntaxKindName } from './syntax-kind.js';
+import { MATCHERS } from './matchers/index.js';
 
 const LITERAL_KINDS: Array<SyntaxKind> = [
   SyntaxKind.FalseKeyword,

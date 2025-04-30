@@ -1,5 +1,5 @@
 /// <reference types="esquery" />
-import type { Node, Selector } from './index';
+import type { Node, Selector } from './index.js';
 /**
  * @public
  * Check for `Nodes` within a given `string` of code or AST `Node` matching a `Selector`.

@@ -6,9 +6,9 @@ import type {
   VariableStatement
 } from 'typescript';
 
-import { expression, literal, method, simpleProgram } from './fixtures';
+import { expression, literal, method, simpleProgram } from './fixtures/index.js';
 
-import { ast, query } from '../src/index';
+import { ast, query } from '../src/index.js';
 
 describe('tsquery:', () => {
   describe('tsquery - class:', () => {

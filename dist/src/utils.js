@@ -1,4 +1,4 @@
-import { getProperties } from './traverse';
+import { getProperties } from './traverse.js';
 export function getPath(obj, path) {
     const keys = path.split('.');
     for (const key of keys) {

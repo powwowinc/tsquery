@@ -1,5 +1,5 @@
-import { conditional, forLoop, simpleFunction, simpleProgram } from './fixtures';
-import { tsquery } from '../src/index';
+import { conditional, forLoop, simpleFunction, simpleProgram } from './fixtures/index.js';
+import { tsquery } from '../src/index.js';
 describe('tsquery:', () => {
     describe('tsquery - matches:', () => {
         it('should find any nodes that match a SyntaxKind', () => {

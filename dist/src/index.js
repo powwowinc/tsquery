@@ -1,21 +1,21 @@
-import { ast } from './ast';
-import { map } from './map';
-import { match } from './match';
-import { parse } from './parse';
-import { project, files } from './project';
-import { query } from './query';
-import { replace } from './replace';
-import { syntaxKindName } from './syntax-kind';
+import { ast } from './ast.js';
+import { map } from './map.js';
+import { match } from './match.js';
+import { parse } from './parse.js';
+import { project, files } from './project.js';
+import { query } from './query.js';
+import { replace } from './replace.js';
+import { syntaxKindName } from './syntax-kind.js';
 export { ScriptKind, SyntaxKind } from 'typescript';
-export { ast } from './ast';
-export { print } from './print';
-export { includes } from './includes';
-export { match } from './match';
-export { query } from './query';
-export { parse } from './parse';
-export { map } from './map';
-export { replace } from './replace';
-export { project, files } from './project';
+export { ast } from './ast.js';
+export { print } from './print.js';
+export { includes } from './includes.js';
+export { match } from './match.js';
+export { query } from './query.js';
+export { parse } from './parse.js';
+export { map } from './map.js';
+export { replace } from './replace.js';
+export { project, files } from './project.js';
 /**
  * @deprecated Will be removed in v7. Use the directly exported functions instead:
  *

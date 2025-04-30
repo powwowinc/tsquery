@@ -1,6 +1,6 @@
 import { SyntaxKind } from 'typescript';
-import { conditional } from './fixtures';
-import { tsquery, ast, query } from '../src/index';
+import { conditional } from './fixtures/index.js';
+import { tsquery, ast, query } from '../src/index.js';
 describe('tsquery:', () => {
     describe('tsquery - child:', () => {
         it('should find any nodes that are a direct child of another node', () => {

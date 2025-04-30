@@ -1,5 +1,5 @@
-import { conditional, simpleProgram } from './fixtures';
-import { tsquery } from '../src/index';
+import { conditional, simpleProgram } from './fixtures/index.js';
+import { tsquery } from '../src/index.js';
 describe('tsquery:', () => {
     describe('tsquery - field:', () => {
         it('should find any nodes with a single field', () => {

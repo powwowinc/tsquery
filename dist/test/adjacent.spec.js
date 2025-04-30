@@ -1,5 +1,5 @@
-import { simpleProgram } from './fixtures';
-import { tsquery } from '../src/index';
+import { simpleProgram } from './fixtures/index.js';
+import { tsquery } from '../src/index.js';
 describe('tsquery:', () => {
     describe('tsquery - adjacent:', () => {
         it('should find any nodes that is a directly after of another node', () => {

@@ -6,8 +6,8 @@ import type {
 } from 'esquery';
 import type { Node } from 'typescript';
 
-import { findMatches } from '../traverse';
-import { getVisitorKeys } from './sibling';
+import { findMatches } from '../traverse.js';
+import { getVisitorKeys } from './sibling.js';
 
 export function nthChild(
   node: Node,

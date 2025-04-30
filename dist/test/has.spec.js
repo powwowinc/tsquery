@@ -1,5 +1,5 @@
-import { conditional } from './fixtures';
-import { tsquery } from '../src/index';
+import { conditional } from './fixtures/index.js';
+import { tsquery } from '../src/index.js';
 describe('tsquery:', () => {
     describe('tsquery - :has:', () => {
         it('should find any nodes with multiple attributes', () => {

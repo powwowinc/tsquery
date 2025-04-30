@@ -1,5 +1,5 @@
 /// <reference types="esquery" />
-import type { Node, ScriptKind, Selector } from './index';
+import type { Node, ScriptKind, Selector } from './index.js';
 /**
  * @public
  * Find AST `Nodes` within a given `string` of code or AST `Node` matching a `Selector`.

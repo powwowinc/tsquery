@@ -1,6 +1,6 @@
 import { SyntaxKind } from 'typescript';
-import { syntaxKindName } from './syntax-kind';
-import { MATCHERS } from './matchers';
+import { syntaxKindName } from './syntax-kind.js';
+import { MATCHERS } from './matchers/index.js';
 const LITERAL_KINDS = [
     SyntaxKind.FalseKeyword,
     SyntaxKind.NoSubstitutionTemplateLiteral,

@@ -1,6 +1,6 @@
-import { conditional, simpleFunction } from './fixtures';
+import { conditional, simpleFunction } from './fixtures/index.js';
 
-import { ast, query, tsquery } from '../src/index';
+import { ast, query, tsquery } from '../src/index.js';
 import { JSDocParameterTag } from 'typescript';
 
 describe('tsquery:', () => {

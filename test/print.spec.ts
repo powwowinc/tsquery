@@ -1,8 +1,8 @@
 import { SyntaxKind, factory } from 'typescript';
 
-import { simpleFunction } from './fixtures/simple-function';
+import { simpleFunction } from './fixtures/simple-function.js';
 
-import { ast, print, query } from '../src/index';
+import { ast, print, query } from '../src/index.js';
 
 describe('tsquery:', () => {
   describe('tsquery.print:', () => {

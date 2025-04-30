@@ -1,11 +1,11 @@
-import { ast } from './ast';
-import { map } from './map';
-import { match } from './match';
-import { parse } from './parse';
-import { project, files } from './project';
-import { query } from './query';
-import { replace } from './replace';
-import { syntaxKindName } from './syntax-kind';
+import { ast } from './ast.js';
+import { map } from './map.js';
+import { match } from './match.js';
+import { parse } from './parse.js';
+import { project, files } from './project.js';
+import { query } from './query.js';
+import { replace } from './replace.js';
+import { syntaxKindName } from './syntax-kind.js';
 
 export type {
   Selector,
@@ -34,23 +34,23 @@ export type {
   Literal
 } from 'esquery';
 export type { Node, SourceFile, VisitResult } from 'typescript';
-export type { NodeTransformer, StringTransformer } from './types';
+export type { NodeTransformer, StringTransformer } from './types.js';
 
 export { ScriptKind, SyntaxKind } from 'typescript';
 
-export { ast } from './ast';
-export { print } from './print';
+export { ast } from './ast.js';
+export { print } from './print.js';
 
-export { includes } from './includes';
-export { match } from './match';
-export { query } from './query';
+export { includes } from './includes.js';
+export { match } from './match.js';
+export { query } from './query.js';
 
-export { parse } from './parse';
+export { parse } from './parse.js';
 
-export { map } from './map';
-export { replace } from './replace';
+export { map } from './map.js';
+export { replace } from './replace.js';
 
-export { project, files } from './project';
+export { project, files } from './project.js';
 
 export type API = typeof query & {
   ast: typeof ast;

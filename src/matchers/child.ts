@@ -1,7 +1,7 @@
 import type { Child } from 'esquery';
 import type { Node } from 'typescript';
 
-import { findMatches } from '../traverse';
+import { findMatches } from '../traverse.js';
 
 export function child(
   node: Node,

@@ -1,6 +1,6 @@
 import { SyntaxKind } from 'typescript';
-import { conditional, forLoop, simpleFunction, simpleProgram, statement } from './fixtures';
-import { tsquery } from '../src/index';
+import { conditional, forLoop, simpleFunction, simpleProgram, statement } from './fixtures/index.js';
+import { tsquery } from '../src/index.js';
 describe('tsquery:', () => {
     describe('tsquery - :not:', () => {
         it('should find any nodes that are not a specific SyntaxKind', () => {

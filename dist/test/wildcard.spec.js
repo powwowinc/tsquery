@@ -1,5 +1,5 @@
-import { conditional, forLoop, simpleFunction, simpleProgram, statement } from './fixtures';
-import { tsquery } from '../src/index';
+import { conditional, forLoop, simpleFunction, simpleProgram, statement } from './fixtures/index.js';
+import { tsquery } from '../src/index.js';
 describe('tsquery:', () => {
     describe('tsquery - wildcard:', () => {
         it('should find all nodes (conditional)', () => {

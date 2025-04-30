@@ -7,9 +7,9 @@ import {
   simpleFunction,
   simpleProgram,
   statement
-} from './fixtures';
+} from './fixtures/index.js';
 
-import { tsquery } from '../src/index';
+import { tsquery } from '../src/index.js';
 
 describe('tsquery:', () => {
   describe('tsquery - :not:', () => {

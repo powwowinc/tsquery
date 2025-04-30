@@ -1,7 +1,7 @@
-import type { Node, SourceFile } from './index';
+import type { Node, SourceFile } from './index.js';
 
 import { createSourceFile, ScriptTarget } from 'typescript';
-import { ScriptKind } from './index';
+import { ScriptKind } from './index.js';
 
 /**
  * @public

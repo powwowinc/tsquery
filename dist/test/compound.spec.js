@@ -1,5 +1,5 @@
-import { conditional } from './fixtures';
-import { ast, query } from '../src/index';
+import { conditional } from './fixtures/index.js';
+import { ast, query } from '../src/index.js';
 describe('tsquery:', () => {
     describe('tsquery - compound:', () => {
         it('should find any nodes with two attributes', () => {

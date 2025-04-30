@@ -1,5 +1,5 @@
-import { conditional, simpleFunction } from './fixtures';
-import { ast, query, tsquery } from '../src/index';
+import { conditional, simpleFunction } from './fixtures/index.js';
+import { ast, query, tsquery } from '../src/index.js';
 describe('tsquery:', () => {
     describe('tsquery - nth-child:', () => {
         it('should find any nodes that are the first-child of a list of nodes', () => {

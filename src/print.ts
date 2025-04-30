@@ -1,8 +1,8 @@
 import type { PrinterOptions } from 'typescript';
-import type { Node, SourceFile } from './index';
+import type { Node, SourceFile } from './index.js';
 
 import { EmitHint, NewLineKind, createPrinter, isSourceFile } from 'typescript';
-import { ast } from './index';
+import { ast } from './index.js';
 
 /**
  * @public

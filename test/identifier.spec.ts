@@ -10,9 +10,9 @@ import type {
 } from 'typescript';
 
 import { SyntaxKind } from 'typescript';
-import { conditional, simpleFunction } from './fixtures';
+import { conditional, simpleFunction } from './fixtures/index.js';
 
-import { tsquery } from '../src/index';
+import { tsquery } from '../src/index.js';
 
 describe('tsquery:', () => {
   describe('tsquery - identifier:', () => {

@@ -1,5 +1,5 @@
-import { expression, literal, method, simpleProgram } from './fixtures';
-import { ast, query } from '../src/index';
+import { expression, literal, method, simpleProgram } from './fixtures/index.js';
+import { ast, query } from '../src/index.js';
 describe('tsquery:', () => {
     describe('tsquery - class:', () => {
         it('should find any statements', () => {

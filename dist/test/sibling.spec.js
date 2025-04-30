@@ -1,5 +1,5 @@
-import { siblings, simpleProgram } from './fixtures';
-import { ast, query } from '../src/index';
+import { siblings, simpleProgram } from './fixtures/index.js';
+import { ast, query } from '../src/index.js';
 describe('tsquery:', () => {
     describe('tsquery - sibling:', () => {
         it('should find a node that is a subsequent sibling of another node', () => {

@@ -1,4 +1,4 @@
-import { SourceFile } from './index';
+import { SourceFile } from './index.js';
 /**
  * @public
  * Get all the `SourceFiles` included in a the TypeScript project described by a given config file.

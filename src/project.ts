@@ -1,5 +1,5 @@
 import type { ParseConfigHost, ParsedCommandLine } from 'typescript';
-import { SourceFile } from './index';
+import { SourceFile } from './index.js';
 
 import * as fs from 'fs';
 import * as path from 'path';

@@ -4,10 +4,10 @@ import type {
   Transformer,
   TransformerFactory
 } from 'typescript';
-import type { Node, NodeTransformer, Selector, VisitResult } from './index';
+import type { Node, NodeTransformer, Selector, VisitResult } from './index.js';
 
 import { transform, visitNode, visitEachChild } from 'typescript';
-import { ast, match, parse, print } from './index';
+import { ast, match, parse, print } from './index.js';
 
 /**
  * @public

@@ -1,5 +1,5 @@
 import { EmitHint, NewLineKind, createPrinter, isSourceFile } from 'typescript';
-import { ast } from './index';
+import { ast } from './index.js';
 /**
  * @public
  * Print a given `Node` or `SourceFile` to a string, using the default TypeScript printer.

@@ -1,5 +1,5 @@
-import { findMatches } from '../traverse';
-import { getVisitorKeys } from './sibling';
+import { findMatches } from '../traverse.js';
+import { getVisitorKeys } from './sibling.js';
 export function nthChild(node, selector, ancestors) {
     const { right } = selector;
     if (right && !findMatches(node, right, ancestors)) {

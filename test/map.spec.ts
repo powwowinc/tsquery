@@ -1,8 +1,8 @@
 import { factory } from 'typescript';
 
-import { ast, map } from '../src/index';
-import { print } from '../src/print';
-import { literal } from './fixtures';
+import { ast, map } from '../src/index.js';
+import { print } from '../src/print.js';
+import { literal } from './fixtures/index.js';
 
 describe('tsquery:', () => {
   describe('tsquery.map:', () => {

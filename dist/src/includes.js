@@ -1,4 +1,4 @@
-import { query } from './index';
+import { query } from './index.js';
 /**
  * @public
  * Check for `Nodes` within a given `string` of code or AST `Node` matching a `Selector`.

@@ -1,6 +1,6 @@
 /// <reference types="esquery" />
 import type { SourceFile, TransformerFactory } from 'typescript';
-import type { Node, NodeTransformer, Selector } from './index';
+import type { Node, NodeTransformer, Selector } from './index.js';
 /**
  * @public
  * Transform AST `Nodes` within a given `Node` matching a `Selector`. Can be used to do `Node`-based replacement or removal of parts of the input AST.

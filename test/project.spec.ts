@@ -1,4 +1,4 @@
-import { tsquery, files } from '../src/index';
+import { tsquery, files } from '../src/index.js';
 
 describe('tsquery:', () => {
   describe('tsquery.project:', () => {

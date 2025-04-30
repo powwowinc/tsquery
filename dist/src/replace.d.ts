@@ -1,5 +1,5 @@
-import type { StringTransformer } from './types';
-import { ScriptKind } from './index';
+import type { StringTransformer } from './types.js';
+import { ScriptKind } from './index.js';
 /**
  * @public
  * Transform AST `Nodes` within a given `Node` matching a `Selector`. Can be used to do string-based replacement or removal of parts of the input AST. The updated code will be printed with the TypeScript [`Printer`](https://github.com/microsoft/TypeScript-wiki/blob/main/Using-the-Compiler-API.md#creating-and-printing-a-typescript-ast), so you may need to run your own formatter on any output code.

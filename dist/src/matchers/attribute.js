@@ -1,4 +1,4 @@
-import { getPath } from '../utils';
+import { getPath } from '../utils.js';
 const OPERATOR = {
     '=': equal,
     '!=': notEqual,

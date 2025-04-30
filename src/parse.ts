@@ -3,7 +3,7 @@ import type {
   MultiSelector,
   BinarySelector,
   Identifier
-} from './index';
+} from './index.js';
 
 import * as esquery from 'esquery';
 import { SyntaxKind } from 'typescript';

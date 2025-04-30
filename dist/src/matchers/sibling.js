@@ -1,4 +1,4 @@
-import { findMatches } from '../traverse';
+import { findMatches } from '../traverse.js';
 export function sibling(node, selector, ancestors) {
     return !!((findMatches(node, selector.right, ancestors) &&
         findSibling(node, ancestors, siblingLeft)) ||

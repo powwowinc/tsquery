@@ -1,4 +1,4 @@
-import { getProperties } from '../traverse';
+import { getProperties } from '../traverse.js';
 const CLASS_MATCHERS = {
     declaration,
     expression,
